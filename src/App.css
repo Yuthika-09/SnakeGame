@@ -59,5 +59,22 @@ h2{
     #00cc66 8px
   );
   box-shadow: 0 0 4px #00ffcc, inset 0 0 2px #003300;
+}
 
+.food{
+  background-color: rgb(233, 129, 129);
+}
+
+.game-over{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ff3366;
+  text-shadow: 2px 2px #000;
+  animation: blink 0.9s steps(2, start), infinite;
+}
+
+@keyframes blink{
+  to{
+    visibility: hidden;
+  }
 }
