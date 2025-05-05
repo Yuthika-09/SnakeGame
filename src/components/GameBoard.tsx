@@ -17,8 +17,10 @@ const GameBoard: React.FC<GameBoardProps> = ({boardSize, snake, food}) => {
       const isSnake = snake.some(([r,c]) => r === row && c === col);
       const isFood = food[0] === row && food[1] === col;
 
-      if(isSnake)
-        cells.push(<SnakeCell key={`${row} - ${col}`}/>)
+      if(isSnake){
+        const isHead = snake[0][0] === row && snake[0][1]=== col;
+        cells.push(<SnakeCell key={`${row} - ${col}` } isHead = {isHead}/>)
+      }
       else if(isFood)
         cells.push(<FoodCell key={`${row} - ${col}`}/>);
       else

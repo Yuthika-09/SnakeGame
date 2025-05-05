@@ -7,4 +7,7 @@ fileignoreconfig:
   checksum: 7df8111b4bc054f7ed51afb950f4e0ea56fabed919c827d0aaf2421ffcd63810
 - filename: src/App.tsx
   checksum: 932eed911ac44ce52426786c6aeb3ae16ff97ad678e14039ebd27c6303b9a160
+- filename: src/components/GameBoard.tsx
+  checksum: 92295ca38cf3eea5f0d622c12c0d0d79b04f3db009f7698e6e3c17849725319a
+  checksum: 49096c7547a6779f03e19fc194da369abeb5072b5e7d8efd2ba1723b3da4c9eb
 version: ""
